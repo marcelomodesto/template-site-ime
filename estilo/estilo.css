@@ -42,5 +42,21 @@
   .custom-toggler.navbar-toggler {
     border-color: rgb(255,102,203);
   } 
-
   
+.logo-medium {
+    display: none;
+}
+
+.logo-small {
+    display: inline-block;
+}
+
+@media all and (min-width: 720px) {
+    .logo-medium {
+        display: inline-block;
+    }
+    
+    .logo-small {
+        display: none;
+    }
+}
