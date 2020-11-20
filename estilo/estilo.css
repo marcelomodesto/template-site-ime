@@ -42,21 +42,18 @@
   .custom-toggler.navbar-toggler {
     border-color: rgb(255,102,203);
   } 
-  
-.logo-medium {
-    display: none;
-}
 
-.logo-small {
+.logo-ime {
+    background: url('../images/logo_ime_reduzido.png') no-repeat;
     display: inline-block;
+    content: '';
+    height: 70px;
+    width: 181px;
 }
 
-@media all and (min-width: 720px) {
-    .logo-medium {
-        display: inline-block;
-    }
-    
-    .logo-small {
-        display: none;
+@media all and (min-width: 1024px) {
+    .logo-ime {
+        background: url('../images/logo_ime.png') no-repeat;
+        width: 397px;
     }
 }
