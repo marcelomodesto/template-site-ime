@@ -51,6 +51,11 @@
     width: 181px;
 }
 
+.header {
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
 @media all and (min-width: 1024px) {
     .logo-ime {
         background: url('../images/logo_ime.png') no-repeat;
